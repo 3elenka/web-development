@@ -9,18 +9,14 @@ VAR
 BEGIN {SarahRevere}
   WRITELN('Content-Type: text/plain');
   WRITELN;
-  BEGIN {инициализация QueryString}
-    QueryString := GetEnv('QUERY_STRING');
-  END;{инициализация QueryString}
-  BEGIN {создание сообщения Sarah}
-    IF QueryString = 'lanterns=1'
+  QueryString := GetEnv('QUERY_STRING');
+  IF QueryString = 'lanterns=1'
+  THEN
+    WRITELN('The British are coming by land.')
+  ELSE
+    IF QueryString = 'lanterns=2'
     THEN
-      WRITELN('The British are coming by land.')
+      WRITELN('The British are coming by sea.')
     ELSE
-      IF QueryString = 'lanterns=2'
-      THEN
-        WRITELN('The British are coming by sea.')
-      ELSE
-        WRITELN('Sarah didn''t say')
-  END{создание сообщения Sarah}
+      WRITELN('Sarah didn''t say')
 END. {SarahRevere}
