@@ -1,0 +1,30 @@
+* {
+    margin: 20px auto;
+    width: 600px;
+    font-family: "Montserrat Alternates";
+}
+
+.header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.content {
+    margin: 20px 0;
+    width: 600px;
+    display: block;
+}
+
+.list_item {
+    margin: 0 10px 10px 0;
+    width: 550px;
+}
+
+.image {
+    display: inline;
+    float: right;
+    margin: 20px 0 0 10px;
+    height: 35%;
+    width: 35%;
+    border-radius: 80px 20px;
+}

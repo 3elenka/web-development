@@ -1,0 +1,152 @@
+.content {
+    width: 960px;
+}
+
+.content_margin {
+    margin: 100px auto;
+}
+
+.content__visual-block {
+    height: 350px;
+}
+
+.visual-block__avatar, .visual-block__quote, .info-block__taste, .info-block__about {
+    display: inline-block;
+}
+
+.visual-block__avatar {
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: 100%;
+}
+
+.avatar_margin{
+    margin: -19% -52%
+}
+
+.visual-block__quote, .info-block__about {
+    width: 570px;
+    float: right;
+}
+
+.visual-block__quote_margin {
+    margin-top: 50px;
+}
+
+.quote__image {
+    height: 87px;
+}
+
+.quote__text {
+    font-size: 28px;
+    line-height: 42px;
+    word-spacing: -3px;
+    letter-spacing: 0px;
+    color: #848484;
+    font-family: "Georgia";
+    font-style: italic;
+}
+
+.quote__text_margin {
+    margin: -24px 0 0 60px;
+}
+
+.quote__author {
+    font-size: 16px;
+    line-height: 50px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.quote__author_margin {
+    margin: 0 0 0 63px;
+}
+
+.taste__writers, .taste__films {
+    margin-top: 50px;
+}
+
+.writers__header, .films__header {
+    font: 24px/1 'Open Sans', sans-serif;
+    color: #15a98c;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.writers__list, .films__list {
+    font-size: 18px;
+    line-height: 22px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+li {
+    margin-bottom: 14px;
+    margin-left: -18px;
+}
+
+.about__user {
+    margin-bottom: 45px;
+}
+
+.user__header {
+    font: 48px 'Open Sans', sans-serif;
+    line-height: 42px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    color: #333333;
+    font-weight: 900;
+}
+
+.user__header_margin {
+    margin: 45px 0 31px 5px;
+}
+
+.user__header-line {
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+}
+
+.user__header-line_margin {
+    margin-bottom: 43px;
+}
+
+.user__description, .hobby__description{
+    width: 560px;
+    font: 19px/1 'Georgia', sans-serif;
+    line-height: 32px;
+    color: #555555;
+}
+
+.hobby__header {
+    font: 36px 'Open Sans', sans-serif;
+    line-height: 36px;
+    word-spacing: -3px;
+    font-weight: 400;
+    color: #333;
+}
+
+.hobby__header {
+    margin-bottom: 10px;
+}
+
+.hobby__description {
+    margin-bottom: 48px;
+}
+
+.contact__link {
+    font: 19px/1 Georgia, Verdana;
+    color: #15a98b;
+    text-decoration: none;
+}
+
+.contact__link_underline {
+    text-decoration: underline;
+}
